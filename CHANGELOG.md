@@ -12,6 +12,14 @@
 - Close the own-corpus shortlist as an invalid thermal screen without a speed claim; point readers to the already verified draft-INT4 result instead of scheduling a duplicate A/B.
 - Qwen3.8-27B SC5: publish the KL screen vs BF16 (SC5 KL 0.418×/0.161× of plain 4.00bpw), the SC_5.00bpw_H6_V6 check (text-identical, does not load), and pin `exl3xpu-mixedk:20261014` (same layers as `20261013`; source: [SergiioB/exl3xpu-mixedk](https://github.com/SergiioB/exl3xpu-mixedk); prior `20261012c` behaves the same) with the one-command launcher path.
 
+## [1.18.0](https://github.com/SergiioB/intel-arc-pro-b70-inference-cookbook/compare/v1.17.0...v1.18.0) (2026-11-22)
+
+
+### Features
+
+* **inkling2-mini:** add opt-in AOT bmg_g31 SYCL M=1 decode attention (+71% @ 256K FP8 KV) ([80cbe03](https://github.com/SergiioB/intel-arc-pro-b70-inference-cookbook/commit/80cbe03e69aa1b5b5fe6ad2e5a81602a3376b428))
+* **inkling2-mini:** opt-in AOT bmg_g31 SYCL M=1 decode attention (+71% @ 256K FP8 KV: 20.07 -&gt; 34.32 tok/s) ([d1e3506](https://github.com/SergiioB/intel-arc-pro-b70-inference-cookbook/commit/d1e3506c85599f728dec18ca4bd8d295855177d6))
+
 ## [1.17.0](https://github.com/SergiioB/intel-arc-pro-b70-inference-cookbook/compare/v1.16.0...v1.17.0) (2026-11-22)
 
 
